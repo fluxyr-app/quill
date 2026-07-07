@@ -1,0 +1,11 @@
+{
+  "name": "@quill/stack-flask",
+  "version": "0.1.0",
+  "description": "Quill reference stack: Python/Flask/SQLAlchemy (fluxyr-flavored).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "prompts", "templates"],
+  "dependencies": {
+    "@quill/core": "0.1.0"
+  }
+}

@@ -1,0 +1,15 @@
+node_modules/
+packages/*/dist/
+packages/*/*.tsbuildinfo
+*.log
+
+# Sample/generated projects (not part of the framework)
+examples/
+
+# Python (inside generated apps / examples)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.sqlite3
+instance/

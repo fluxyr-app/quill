@@ -1,0 +1,25 @@
+{
+  "name": "quill-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Quill — a micro-prompt framework for generating web apps",
+  "workspaces": [
+    "packages/core",
+    "packages/stack-flask",
+    "packages/stack-node",
+    "packages/stack-sinatra",
+    "packages/cli"
+  ],
+  "scripts": {
+    "build": "tsc -b packages/core packages/stack-flask packages/stack-node packages/stack-sinatra packages/cli",
+    "clean": "tsc -b --clean packages/core packages/stack-flask packages/stack-node packages/stack-sinatra packages/cli && rm -rf packages/*/dist",
+    "quill": "node packages/cli/dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

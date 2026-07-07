@@ -1,0 +1,19 @@
+{
+  "name": "@quill/cli",
+  "version": "0.1.0",
+  "description": "Quill CLI — bins: quill, create-quill-app.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "quill": "dist/index.js",
+    "create-quill-app": "dist/create.js"
+  },
+  "files": ["dist"],
+  "dependencies": {
+    "@quill/core": "0.1.0",
+    "@quill/stack-flask": "0.1.0",
+    "@quill/stack-node": "0.1.0",
+    "@quill/stack-sinatra": "0.1.0",
+    "commander": "^12.1.0"
+  }
+}

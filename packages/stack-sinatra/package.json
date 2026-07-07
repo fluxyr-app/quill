@@ -1,0 +1,11 @@
+{
+  "name": "@quill/stack-sinatra",
+  "version": "0.1.0",
+  "description": "Quill reference stack: Ruby + Sinatra (in-memory store).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "prompts", "templates"],
+  "dependencies": {
+    "@quill/core": "0.1.0"
+  }
+}

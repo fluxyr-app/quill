@@ -1,0 +1,11 @@
+{
+  "name": "@quill/core",
+  "version": "0.1.0",
+  "description": "Quill engine: shared conventions, micro-prompt ledger, OpenRouter engine, repair loop.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "prompts"],
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}
