@@ -1,5 +1,5 @@
 {
-  "name": "@quill/cli",
+  "name": "@fluxyr/quill",
   "version": "0.1.0",
   "description": "Quill CLI — bins: quill, create-quill-app.",
   "main": "dist/index.js",
@@ -8,12 +8,39 @@
     "quill": "dist/index.js",
     "create-quill-app": "dist/create.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "dependencies": {
-    "@quill/core": "0.1.0",
-    "@quill/stack-flask": "0.1.0",
-    "@quill/stack-node": "0.1.0",
-    "@quill/stack-sinatra": "0.1.0",
+    "@fluxyr/quill-core": "0.1.0",
+    "@fluxyr/quill-stack-flask": "0.1.0",
+    "@fluxyr/quill-stack-node": "0.1.0",
+    "@fluxyr/quill-stack-sinatra": "0.1.0",
     "commander": "^12.1.0"
+  },
+  "license": "MIT",
+  "author": "Fluxyr",
+  "homepage": "https://github.com/fluxyr-app/quill#readme",
+  "bugs": {
+    "url": "https://github.com/fluxyr-app/quill/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluxyr-app/quill.git",
+    "directory": "packages/cli"
+  },
+  "keywords": [
+    "quill",
+    "code-generation",
+    "llm",
+    "micro-prompts",
+    "openrouter",
+    "scaffolding"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

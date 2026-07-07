@@ -7,7 +7,7 @@ import {
   readConfig,
   resolvePaths,
   findProjectRoot,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 
 export function log(msg = ""): void {
   process.stdout.write(msg + "\n");

@@ -18,7 +18,7 @@ import {
   hashDir,
   copyDir,
   regenerate,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 import { loadProject, log, die, nowISO } from "../util";
 
 export async function cmdCheckpoint(name: string): Promise<void> {

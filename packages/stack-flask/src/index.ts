@@ -1,9 +1,9 @@
 /**
- * @quill/stack-flask — the reference stack: Python/Flask/SQLAlchemy, flavored
+ * @fluxyr/quill-stack-flask — the reference stack: Python/Flask/SQLAlchemy, flavored
  * after fluxyr (Base-62 short IDs, BaseModel, account-scoped blueprints).
  *
- * Importing this module registers the "flask" stack with @quill/core. Core
- * conventions are shared (owned by @quill/core); this stack contributes only the
+ * Importing this module registers the "flask" stack with @fluxyr/quill-core. Core
+ * conventions are shared (owned by @fluxyr/quill-core); this stack contributes only the
  * framework binding, the scaffold templates, and verify().
  */
 import * as fs from "fs";
@@ -16,7 +16,7 @@ import {
   readTemplatesDir,
   composeStackSystemPrompt,
   registerStack,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 import { verifyFlask } from "./verify";
 
 const PKG_ROOT = path.resolve(__dirname, "..");

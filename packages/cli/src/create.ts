@@ -3,9 +3,9 @@
 import * as fs from "fs";
 import * as path from "path";
 import { Command } from "commander";
-import "@quill/stack-flask"; // registers the flask stack
-import "@quill/stack-node"; // registers the node stack
-import "@quill/stack-sinatra"; // registers the sinatra stack
+import "@fluxyr/quill-stack-flask"; // registers the flask stack
+import "@fluxyr/quill-stack-node"; // registers the node stack
+import "@fluxyr/quill-stack-sinatra"; // registers the sinatra stack
 import {
   getStack,
   listStacks,
@@ -15,7 +15,7 @@ import {
   emptyLockfile,
   writeLockfile,
   scaffoldGenerated,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 import { log, die } from "./util";
 
 const PROJECT_GITIGNORE = [

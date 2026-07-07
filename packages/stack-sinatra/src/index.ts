@@ -1,5 +1,5 @@
 /**
- * @quill/stack-sinatra — a reference stack: Ruby + Sinatra with an in-memory
+ * @fluxyr/quill-stack-sinatra — a reference stack: Ruby + Sinatra with an in-memory
  * store. Reuses the SAME shared core conventions as every other stack; it
  * contributes only the framework binding, the scaffold templates, and verify().
  * Importing this module registers the "sinatra" stack.
@@ -14,7 +14,7 @@ import {
   readTemplatesDir,
   composeStackSystemPrompt,
   registerStack,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 import { verifySinatra } from "./verify";
 
 const PKG_ROOT = path.resolve(__dirname, "..");

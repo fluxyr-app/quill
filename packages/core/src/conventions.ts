@@ -1,7 +1,7 @@
 /**
  * The shared, framework-agnostic **core conventions** — Quill's single source of
  * truth for how an application behaves (identifiers, resources, endpoints,
- * authorization, errors). They live in a fixed folder inside @quill/core and are
+ * authorization, errors). They live in a fixed folder inside @fluxyr/quill-core and are
  * reused by every stack; a stack contributes only its framework binding, its
  * scaffold templates, and its verify(). Projects never copy these.
  */

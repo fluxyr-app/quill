@@ -13,7 +13,7 @@
 import { spawnSync } from "child_process";
 import * as fs from "fs";
 import * as path from "path";
-import { VerifyResult } from "@quill/core";
+import { VerifyResult } from "@fluxyr/quill-core";
 
 interface Run {
   code: number;

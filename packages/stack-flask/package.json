@@ -1,11 +1,40 @@
 {
-  "name": "@quill/stack-flask",
+  "name": "@fluxyr/quill-stack-flask",
   "version": "0.1.0",
   "description": "Quill reference stack: Python/Flask/SQLAlchemy (fluxyr-flavored).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "prompts", "templates"],
+  "files": [
+    "dist",
+    "prompts",
+    "templates"
+  ],
   "dependencies": {
-    "@quill/core": "0.1.0"
+    "@fluxyr/quill-core": "0.1.0"
+  },
+  "license": "MIT",
+  "author": "Fluxyr",
+  "homepage": "https://github.com/fluxyr-app/quill#readme",
+  "bugs": {
+    "url": "https://github.com/fluxyr-app/quill/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluxyr-app/quill.git",
+    "directory": "packages/stack-flask"
+  },
+  "keywords": [
+    "quill",
+    "code-generation",
+    "llm",
+    "micro-prompts",
+    "openrouter",
+    "scaffolding"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

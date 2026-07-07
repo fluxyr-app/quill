@@ -1,5 +1,5 @@
 /**
- * @quill/stack-node — a reference stack: Node/TypeScript + Express with an
+ * @fluxyr/quill-stack-node — a reference stack: Node/TypeScript + Express with an
  * in-memory store. It reuses the SAME shared core conventions as every other
  * stack; it contributes only the framework binding, the scaffold templates, and
  * verify(). Importing this module registers the "node" stack.
@@ -14,7 +14,7 @@ import {
   readTemplatesDir,
   composeStackSystemPrompt,
   registerStack,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 import { verifyNode } from "./verify";
 
 const PKG_ROOT = path.resolve(__dirname, "..");

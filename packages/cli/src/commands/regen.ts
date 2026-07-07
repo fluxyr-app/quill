@@ -13,7 +13,7 @@ import {
   hashPrompt,
   hashDir,
   regenerate,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 import { loadProject, log, die, nowISO } from "../util";
 
 export async function cmdRegen(opts: { from?: string }): Promise<void> {

@@ -1,6 +1,6 @@
 /**
  * Stack adapter registry. Core owns the registry; concrete stacks (e.g.
- * @quill/stack-flask) register themselves and the CLI wires them in. This keeps
+ * @fluxyr/quill-stack-flask) register themselves and the CLI wires them in. This keeps
  * the dependency arrow pointing stacks -> core, never the reverse.
  */
 import { StackAdapter } from "../types";

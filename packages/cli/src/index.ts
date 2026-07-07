@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /** `quill` — the Quill CLI. */
 import { Command } from "commander";
-import "@quill/stack-flask"; // registers the flask stack
-import "@quill/stack-node"; // registers the node stack
-import "@quill/stack-sinatra"; // registers the sinatra stack
+import "@fluxyr/quill-stack-flask"; // registers the flask stack
+import "@fluxyr/quill-stack-node"; // registers the node stack
+import "@fluxyr/quill-stack-sinatra"; // registers the sinatra stack
 import { die } from "./util";
 import { cmdNew } from "./commands/new";
 import { cmdUp } from "./commands/up";

@@ -7,7 +7,7 @@ import {
   findCheckpoint,
   truncateTo,
   restoreDir,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 import { loadProject, log, die } from "../util";
 
 export function cmdDown(name: string): void {

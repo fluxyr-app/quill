@@ -1,7 +1,7 @@
 /** `quill new "<title>"` — create the next feature micro-prompt. */
 import * as fs from "fs";
 import * as path from "path";
-import { renderPromptFile } from "@quill/core";
+import { renderPromptFile } from "@fluxyr/quill-core";
 import { loadProject, log, nextFeatureId, relFromRoot } from "../util";
 
 export function cmdNew(title: string): void {

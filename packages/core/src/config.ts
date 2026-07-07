@@ -44,7 +44,7 @@ export function writeConfig(projectDir: string, config: QuillConfig): void {
 /**
  * Resolved absolute paths for a project. Note: core conventions (the shared,
  * framework-agnostic prompts) are NOT here — they are Quill-owned and read from
- * @quill/core via `coreConventions()`. A project's `prompts/` folder holds only
+ * @fluxyr/quill-core via `coreConventions()`. A project's `prompts/` folder holds only
  * its own feature prompts (directly, no subfolder).
  */
 export interface ProjectPaths {

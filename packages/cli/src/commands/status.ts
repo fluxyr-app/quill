@@ -6,7 +6,7 @@ import {
   readPromptDir,
   hashPrompt,
   hashDir,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 import { loadProject, log } from "../util";
 
 export function cmdStatus(): void {

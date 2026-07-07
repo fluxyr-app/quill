@@ -13,7 +13,7 @@ import {
   hashDir,
   composeSystemPrompt,
   applyPrompt,
-} from "@quill/core";
+} from "@fluxyr/quill-core";
 import { loadProject, log, nowISO } from "../util";
 
 export async function cmdUp(opts: { model?: string }): Promise<void> {

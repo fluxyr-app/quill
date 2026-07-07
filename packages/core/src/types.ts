@@ -48,7 +48,7 @@ export interface StackContext {
 
 /**
  * A stack adapter encodes one target technology (e.g. Python/Flask). It does NOT
- * own the core conventions (those are shared, in @quill/core); it contributes the
+ * own the core conventions (those are shared, in @fluxyr/quill-core); it contributes the
  * framework binding (via buildSystemPrompt), the verbatim scaffold, and verify().
  */
 export interface StackAdapter {
